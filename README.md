@@ -5,5 +5,7 @@ One line. One command. And everything is ready!
 ```
 curl -fsSL https://raw.githubusercontent.com/medowic/simple-memory-cleaner/master/install.sh | sudo bash
 ```
+## Configuration
+You can change the memory cleanup time in `/etc/clmem.conf` (may be, there will be more settings...)
 ## License
 This is project is under the [MIT License](https://raw.githubusercontent.com/medowic/simple-memory-cleaner/master/LICENSE).

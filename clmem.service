@@ -1,0 +1,10 @@
+[Unit]
+Description=Simple Memory Cleaner (ClMem) Service
+After=network.target
+[Service]
+User=root
+Group=root
+ExecStart=/usr/bin/bash /root/.clmem/clmem.sh
+SuccessExitStatus=0
+[Install]
+WantedBy=multi-user.target

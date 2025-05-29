@@ -35,5 +35,5 @@ systemctl start clmem > /dev/null 2>&1
 systemctl enable clmem > /dev/null 2>&1
 
 echo "Simple Memory Cleaner was installed"
-echo "You can use it by run 'clmem' and start/stop daemon by 'systemctl stop clmem'"
+echo "You can use it by run 'clmem' and start/stop daemon by 'systemctl start/stop clmem'"
 exit 0;
